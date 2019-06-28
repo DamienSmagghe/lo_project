@@ -68,7 +68,7 @@
                 <!-- Texte dynamique -->
                 <p>Un nouveau mouvement de violence est apparu dans l’Etat d’Arakan en 2017 après l’attaque d’une vingtaine de postes-frontières...</p>
                 <!-- Liens dynamique -->
-                <a class="read__button" href="article.php">lire</a>
+                <a class="read__button" href="article_1.php">lire</a>
             </div>
             <div class="article">
                 <!-- Titre dynamique -->

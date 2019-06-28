@@ -88,7 +88,7 @@ a {
     transition: 0.3s ease-out;
 }
 .read__button:hover::after{
-    transform: translateX(200%);
+    transform: translateX(140%);
 }
 .read__button:hover {
     opacity: 0.8;

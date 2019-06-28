@@ -114,11 +114,18 @@
     justify-content: space-between;
     position: relative;
     width: 50%;
+    height: 300px;
 }
 .img__block img{
     object-fit: cover;
     position: relative;
     width: 100%;
+    height: 100%;
+}
+.img__block .broken__img{
+    height: 100%;
+}
+.img__block .broken__img__small{
     height: 100%;
 }
 .img__block h3{
@@ -133,13 +140,13 @@
     font-weight: bold;
     padding: 0 20px 10px 0;
 }
-.img__block.color__indicator__red::after{
+.img__block.color__indicator__yellow::after{
     content: '';
     position: absolute;
     width: 10px;
     height: 100%;
     right: 0;
-    background: var(--red);
+    background: var(--yellow);
 }
 .img__block.color__indicator__blue::after{
     content: '';

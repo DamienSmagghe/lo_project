@@ -34,7 +34,7 @@
             <div class="resume">
                 <!-- TEXTE DYNAMIQUE -->
                 <p>Depuis le mois d’août 2017, des centaines de milliers de membres de la communauté ethnique musulmane Rohingya ont fui l’État de Rakhine (Arakan), une région située dans l’ouest de la Birmanie, afin d’échapper à des abus massifs commis par les forces de sécurité du gouvernement. Vers la mi-septembre 2017, environ 400 000 Rohingyas – soit près d’un tiers de la population totale Rohingya de Birmanie, estimée à 1,2 million de personnes – avaient franchi la frontière pour fuir vers le Bangladesh. Des dizaines de milliers d’autres Rohingyas se retrouvent déplacés à l’intérieur de la Birmanie, sans accès à une aide humanitaire vitale. En réponse à une attaque coordonnée menée par un groupe armé rohingya, l’armée birmane a lancé une campagne meurtrière recourant à des bombardements et à des incendies criminels, et qui s’apparente à une forme de nettoyage ethnique.</p>
-                <a href="article.php" class="read__button">lire</a>
+                <a href="article_1.php" class="read__button">lire</a>
             </div>
             <div class="img__block color__indicator__blue">
                 <div class="img__frame">
@@ -50,7 +50,7 @@
             <div class="resume">
                 <!-- TEXTE DYNAMIQUE -->
                 <p>Le pays compte 23 millions d’habitants et une superficie de 185 000 km². Il a été établi dans ses frontières actuelles après la Première guerre mondiale, suite au dépeçage de l’Empire ottoman par les Français et les Britanniques, au lendemain des accords de San Remo en 1920. Sous mandat français jusqu’en 1946, la Syrie indépendante a connu des épisodes démocratiques puis des coups d’Etats militaires dont celui du parti Baath en 1963 qui a établi le régime actuel. S’en suit alors un régime politique familial repris pas Bachar-El-Assad en 2000 suite à la mort de son père. Le peuple Syrien était donc sous un régime tyrannique depuis plus de 40 ans.</p>
-                <a href="article.php" class="read__button">lire</a>
+                <a href="article_2.php" class="read__button">lire</a>
             </div>
             <div class="img__block color__indicator__blue">
                 <div class="img__frame">
@@ -59,6 +59,23 @@
                 </div>
                 <!-- TITRE DYNAMIQUE -->
                 <h3>Le conflit Syrien</h3>
+                <div class="color__indicator"></div>
+            </div>
+        </div>
+        <div class="article__bulk__left">
+            <span class="article__date">15/06/2019</span>
+            <div class="resume">
+                <!-- TEXTE DYNAMIQUE -->
+                <p>L’ONU a connu des « défaillances systémiques » entre 2010 et 2018 dans sa gestion de la situation en Birmanie où la minorité musulmane Rohingya a été contrainte à un exode massif à partir d’août 2017 vers le Bangladesh, selon un rapport onusien.Cette enquête sur le fonctionnement interne de l’ONU avait été demandée en février par le secrétaire général Antonio Guterres à un diplomate du Guatemala, Gert Rosenthal. Ce dernier lui a remis lundi son rapport, devant être diffusé à l’ensemble des membres des Nations unies...</p>
+                <a href="article_3.php" class="read__button">lire</a>
+            </div>
+            <div class="img__block color__indicator__yellow">
+                <div class="img__frame">
+                    <!-- IMAGE DYNAMIQUE -->
+                    <img class="broken__img" src="images/onu-birmanie.png" alt="birmanie">
+                </div>
+                <!-- TITRE DYNAMIQUE -->
+                <h3>L’ex-représentante de l’ONU en Birmanie</h3>
                 <div class="color__indicator"></div>
             </div>
         </div>
