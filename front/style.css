@@ -138,6 +138,7 @@ p.paragraph {
     font-weight: normal;
     font-size: 16px;
     line-height: 24px;
+    margin: 19px 0;
     color: var(--secondary-grey);
 }
 a.primary-button {

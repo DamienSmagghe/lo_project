@@ -16,7 +16,7 @@
             <h3 class="article-subtitle">Les origines du conflit</h3>
             <!-- Import de la data vis Dynamique -->
             <div class="article-data-visualisation">
-                <img class="article-main-image" src="./images/dataviz-birmanie-1.png" alt="birmanie">
+                <img class="data-viz" src="./images/dataviz-birmanie-1.png" alt="birmanie">
             </div>
             <!-- Texte dynamique -->
             <p class="paragraph">Depuis le mois d’août 2017, des centaines de milliers de membres de la communauté ethnique musulmane Rohingya ont fui l’État de Rakhine (Arakan), une région située dans l’ouest de la Birmanie, afin d’échapper à des abus massifs commis par les forces de sécurité du gouvernement. Vers la mi-septembre 2017, environ 400 000 Rohingyas – soit près d’un tiers de la population totale Rohingya de Birmanie, estimée à 1,2 million de personnes – avaient franchi la frontière pour fuir vers le Bangladesh. Des dizaines de milliers d’autres Rohingyas se retrouvent déplacés à l’intérieur de la Birmanie, sans accès à une aide humanitaire vitale. En réponse à une attaque coordonnée menée par un groupe armé rohingya, l’armée birmane a lancé une campagne meurtrière recourant à des bombardements et à des incendies criminels, et qui s’apparente à une forme de nettoyage ethnique.</p>
@@ -27,9 +27,6 @@
             <p class="paragraph">Un nouveau mouvement de violence est apparu dans l’Etat d’Arakan en 2017 après l’attaque d’une vingtaine de postes-frontières, le 25 août, par des rebelles de l’Armée du salut des Rohingya de l’Arakan (ARSA), faisant douze morts dans les rangs des policiers. Ce groupe rebelle a émergé récemment, face à l’absence d’avancées sur le dossier de la minorité musulmane. Ces attaques ont déclenché une répression de l’armée et fait de nombreux morts, pour la plupart des Rohingyas.</p>
             <small>L’aide internationale</small>
             <p class="paragraph">En dépit des problèmes auxquels il est confronté, le Bangladesh a puisé dans ses propres ressources pour faire face à la crise. Le pays a notamment mis à disposition quelque 2 000 hectares de terres pour y installer des abris provisoires, fourni une aide alimentaire, déployé des équipes médicales mobiles et mené des campagnes de vaccination à grande échelle. Il a construit 13 routes d’accès aux camps et aménagé des points d’eau et des installations d’assainissement.L’UE alloue des fonds significatifs à l’organisation, par l’intermédiaire d’ONG internationales et de l’ONU, d’une aide vitale pour les réfugiés rohingyas non-enregistrés dans le district de Cox Bazar au Bangladesh. En 2018, l’UE a jusqu’ici investi € 36 millions dans l’organisation de soins de santé de base, d’un accès à l’eau, d’un assainissement, d’un logement, d’une aide nutritionnelle, de mesures de protection, d’un soutien psychologique et de mesures de réduction des risques de catastrophe en préparation à la saison des moussons.</p>
-            </div>
-            <div class="article-data-visualisation">
-                <img class="article-main-image" src="./images/dataviz-birmanie-2.png" alt="birmanie">
             </div>
         </article>
         <button>

@@ -16,7 +16,7 @@
             <h3 class="article-subtitle">La Crimée, un territoire stratégique pour la russie</h3>
             <!-- Import de la data vis Dynamique -->
             <div class="article-data-visualisation">
-                <img src="./images/dataviz-crimee-1.png" alt="crimée data">
+                <img class="data-viz" src="./images/dataviz-crimee-1.png" alt="crimée data">
             </div>
                 <!-- Texte dynamique -->
                 <p class="paragraph">Après les événements qui ont abouti à la destitution (22 février 2014) et à la fuite du président ukrainien (Viktor Ianoukovitch), on a vu émerger un mouvement d’autodéfense en Crimée, où une partie de la population s’est opposée au renversement du régime. Le 17 mars, à l’issue d’un référendum dont la légalité est largement mise en doute, le parlement criméen a proclamé l’indépendance de la Crimée et a demandé son rattachement à la fédération de Russie. Depuis, malgré la signature d’un accord à Genève, les violences et le nombre des victimes augmentent dans l’est de l’Ukraine, les revendications de rattachement à la Russie se sont multipliées et le pouvoir ukrainien peine à restaurer son autorité dans plusieurs partie de son territoire malgré l’utilisation de moyens militaires significatifs.</p>
@@ -35,9 +35,6 @@
                 <!-- subtitle -->
                 <small>Etats-Unis</small>
                 <p class="paragraph">Saluant les décisions de l’UE, les Etats-Unis ont eux aussi sanctionné la Russie, recentrant partiellement l’attention américaine sur la Russie malgré une politique voulue de « pivot vers l’Asie ». En se rendant en Estonie à la veille de l’ouverture du sommet de l’OTAN, le 4 septembre 2014 au Pays de Galles, Barack Obama a lancé une sévère mise en garde à la Russie, l’accusant de menacer la « liberté » et la       « paix » en Europe par la poursuite de son « agression contre l’Ukraine » et plus récemment via Donald trump.</p>
-            </div>
-            <div class="article-data-visualisation">
-                <img src="./images/dataviz-crimee-2.png" alt="crimée data">
             </div>
         </article>
         <button>

@@ -16,7 +16,7 @@
             <h3 class="article-subtitle">La révolution syrienne</h3>
             <!-- Import de la data vis Dynamique -->
             <div class="article-data-visualisation">
-                <img src="./images/dataviz-syrie-1.png" alt="syrie data">
+                <img class="data-viz" src="./images/dataviz-syrie-1.png" alt="syrie data">
             </div>
                 <!-- Texte dynamique -->
                 <p class="paragraph">Le pays compte 23 millions d’habitants et une superficie de 185 000 km². Il a été établi dans ses frontières actuelles après la Première guerre mondiale, suite au dépeçage de l’Empire ottoman par les Français et les Britanniques, au lendemain des accords de San Remo en 1920. Sous mandat français jusqu’en 1946, la Syrie indépendante a connu des épisodes démocratiques puis des coups d’Etats militaires dont celui du parti Baath en 1963 qui a établi le régime actuel. S’en suit alors un régime politique familial repris pas Bachar-El-Assad en 2000 suite à la mort de son père. Le peuple Syrien était donc sous un régime tyrannique depuis plus de 40 ans.</p>
@@ -37,9 +37,6 @@
                 <p class="paragraph">Les forces kurdes syriennes, contrôlent la zone nord-ouest frontalière de la Turquie majoritairement peuplée de Kurdes syriens. Leurs forces militaires sont composées de combattants locaux. Ces forces kurdes luttent pour reconquérir leur territoire et pour l’autonomie, et ne sont pas considérées comme opposantes au régime syrien. Avec l’évolution du conflit, les Kurdes se sont retrouvés en première ligne pour lutter contre l’EI au Nord de la Syrie. Ils ont mené la grande bataille pour défendre et reconquérir la ville de Kobané. Une action rendue possible surtout grâce aux raids de l’aviation de la coalition internationale luttant contre Daech et aux livraisons d’armes, au grand dam d’Ankara. En juin 2015, les forces kurdes et des brigades de l’ASL ont réussi à évincer les hommes de l’Etat islamique de la ville et de la région de Tall Abyad, frontalière de la Turquie.</p>
                 <br>
                 <p class="paragraph">La coalition internationale emmenée par Washington, la coalition regroupe plus de 60 pays, dont la France et la Grande-Bretagne, et a mené des frappes aériennes contre l’EI depuis 2014, en appui à des troupes au sol. Avec la fin des grandes batailles contre les jihadistes, les frappes ont baissé en intensité. 2000 soldats américains ont été déployés dans le nord syrien, essentiellement des forces spéciales présentes pour combattre l’EI et entraîner les forces locales dans les zones reprises aux jihadistes.</p>
-            </div>
-            <div class="article-data-visualisation">
-                <img src="./images/dataviz-syrie-2.png" alt="syrie data">
             </div>
         </article>
         <button>

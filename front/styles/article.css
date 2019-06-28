@@ -17,16 +17,33 @@ small.article-date {
 img.article-main-image {
     width: 100%;
 }
+img.data-viz {
+    width: 80%;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+}
+
 h3.article-subtitle {
     font-family: Libre Baskerville;
     font-size: 25px;
     margin-bottom: 25px;
 }
 .article-data-visualisation {
+    position: relative;
     float: right;
     width: 50%;
-    height: 400px;
-    background: grey;
+    height: 100%;
+    background: var(--white);
+    margin-left: 16px;
+    margin-bottom: 16px;
+}
+.article-data-visualisation.left-data {
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 100%;
+    background: var(--white);
     margin-left: 16px;
     margin-bottom: 16px;
 }
@@ -61,4 +78,10 @@ article {
 }
 .switch-article-link.next::after {
     right: -70px;
+}
+.article-content small{
+    font-family: "Libre Baskerville";
+    color: var(--secondary-grey);
+    font-size: 20px;
+    font-weight: bold;
 }
