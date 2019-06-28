@@ -15,11 +15,14 @@
     <div class="infos__raw">
         <!-- Titre mis à jour dynamiquement -->
         <div>
-            <small>France</small>
+            <small></small>
         </div>
         <!-- Description mis à jour dynamiquement -->
-        <p>La france est un pays de l’union européenne, elle intervient à ce jour dans près de 10 pays et n’est pas en conflit au sein de son territoire.</p>
-        <a href="article.php">En savoir plus</a>
+        <p></p>
+        <div class="button-wrapper">
+        <a class="primary-button" href="article.php">En savoir plus</a>
+        </div>
+        
     </div>
 </div>
 <div class="country__articles">
@@ -28,9 +31,10 @@
         <small>Dernières infos sur la France</small>
         <div class="small__article">
             <img src="images/france.jpg" alt="la france">
-            <p>Lorem ipsum dolor amet tacos flexitarian flannel yuccie taxidermy tattooed schlitz scenester.</p>
         </div>
-        <a href="news.php">Lire plus d'articles</a>
+        <div class="button-wrapper">
+        <a class="primary-button" href="news.php">En savoir plus</a>
+        </div>
     </div>
 </div>
 <div class="country__dataviz">

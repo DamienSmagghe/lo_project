@@ -84,11 +84,15 @@ a {
     width: 40%;
     height: 2px;
     top: 52%;
-    transform: translateX(121%);
+    transform: translateX(130%);
     transition: 0.3s ease-out;
 }
 .read__button:hover::after{
-    transform: translateX(125%);
+    transform: translateX(200%);
+}
+.read__button:hover {
+    opacity: 0.8;
+    text-shadow: 0 0 1px #ccc;
 }
 button {
     cursor: pointer;
@@ -137,6 +141,7 @@ p.paragraph {
     color: var(--secondary-grey);
 }
 a.primary-button {
+    position: relative;
     padding: 10px 15px;
     background: var(--blue);
     border-radius: 5px;
@@ -147,6 +152,11 @@ a.primary-button {
     align-items: center;
     text-align: center;
     color: white;
+    transition: 0.2s ease-out;
+}
+a.primary-button:hover {
+    transform: scale(1.025) translateY(-2px);
+    box-shadow: 0 2px 3px #cccccc;
 }
 nav{
     position: relative;
@@ -264,8 +274,15 @@ footer a{
     text-decoration: none;
     font-family: "Libre Baskerville";
     font-size: 16px;
+    transition: 0.2s ease-out;
 }
-
+footer a:hover {
+    opacity: 0.7;
+    text-shadow: 0 0 1px #ccc;
+}
+.button-wrapper {
+    text-align: center;
+}
 
 @media screen and (min-width:300px) and (max-width:767px) {
     nav{

@@ -22,8 +22,10 @@
         <a href="index.php">Accueil</a>
         <a href="news.php">News</a>
         <a href="project.php">Le Projet</a>
+        <div>
+        <a class="smaller__text primary-button" href="subscribe.php">S'abonner</a>
+        </div>
         
-        <a class="smaller__text subscribe" href="subscribe.php">S'abonner</a>
         <a class="smaller__text connexion" href="connexion.php">
             <img src="images/user.svg" alt="utilisateur">
             Connexion
