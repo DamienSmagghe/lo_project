@@ -111,24 +111,10 @@ nav.isHome {
     color: var(--secondary-grey);
 }
 
-/* .country__infos a {
-    padding: 10px;
-    text-align: center;
-    width: 45%;
-    background: var(--blue);
-    color: var(--white);
-    font-family: "Noto Sans";
-    font-weight: bold;
-    border-radius: 5px;
-    cursor: pointer;
-} */
-
-
-
 .country__articles .articles__raw {
     margin: 20px;
     height: 85%;
-    display: flex;
+    display: none;
     justify-content: space-between;
     flex-direction: column;
 }
