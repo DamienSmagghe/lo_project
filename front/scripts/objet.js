@@ -53,7 +53,7 @@ export const datas = {
 
         countryISO: "USA",
         countryUN: 842,
-        description: "Un des états possédant le plus de puissance militaire",
+        description: "Un des états possédant le plus de puissance militaire. Il intervient à l'international très fréquemment.",
         interventions: 
         [
           {
