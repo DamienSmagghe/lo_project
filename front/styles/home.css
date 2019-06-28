@@ -263,6 +263,7 @@ h5 {
     top: 50%;
     font-size: 59px;
     color: var(--white);
+    text-align: center;
 }
 
 .new__articles p {

@@ -120,19 +120,20 @@
 .img__block h3{
     position: absolute;
     font-family: 'Noto Sans';
-    left: 100%;
+    left: 102%;
     top: 100%;
+    width: 100%;
     transform: translate(-100%,-100%);
-    color: var(--white); 
+    color: var(--white);
     font-size: 39px;
     font-weight: bold;
-    padding: 0 20px 10px 0; 
+    padding: 0 20px 10px 0;
 }
 .img__block.color__indicator__red::after{
     content: '';
     position: absolute;
     width: 10px;
-    height: 99%;
+    height: 100%;
     right: 0;
     background: var(--red);
 }
@@ -140,7 +141,7 @@
     content: '';
     position: absolute;
     width: 10px;
-    height: 99%;
+    height: 100%;
     right: 0;
     background: var(--blue);
 }
