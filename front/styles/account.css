@@ -1,0 +1,93 @@
+div.content__account{
+    margin: 50px 20%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.col__infos__account{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+    box-shadow: #00000021 0px 0px 6px 0px;
+    background: var(--white);
+    border-radius: 5px;
+}
+.pseudo{
+    font-family: "Noto Sans";
+    margin-top: 26px;
+    text-align: center;
+    font-size: 20px;
+    color: var(--secondary-grey);
+}
+.pseudo + p{
+    font-family: "Libre Baskerville";
+    margin-top: 26px;
+    text-align: center;
+    font-size: 13px;
+    color: var(--secondary-grey);
+}
+.avatar{
+    width: 150px;
+    height: 150px;
+}
+.mail{
+    width: 100%;
+    font-family: "Libre Baskerville";
+    text-align: left;
+    font-size: 13px;
+    color: var(--secondary-grey);
+}
+.premium{
+    width: 100%;
+    font-family: "Libre Baskerville";
+    text-align: center;
+    font-size: 16px;
+    color: var(--secondary-grey);
+    text-transform: uppercase;
+}
+.activate{
+    position: relative;
+    width: 83%;
+    left: 3%;
+}
+.activate p{
+    z-index: 2;
+    font-family: "Libre Baskerville";
+    text-align: left;
+    font-size: 16px;
+    color: var(--secondary-grey);
+}
+.activate input{
+    margin-top: 10%;
+    position: relative;
+    left: 0%;
+    top: 10%;
+    font-size: 20px;
+    width: 84%;
+    color: var(--secondary-grey);
+}
+.activate::before{
+    content: '';
+    position: absolute;
+    top: 40%;
+    right: 9%;
+    width: 95%;
+    height: 95%;
+    border: 2px solid var(--primary-grey);
+    border-radius: 5px;
+}
+.col__infos__account input[type="submit"]{
+    border: 2px solid var(--primary-grey);
+    width: 55%;
+    height: 16%;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: var(--secondary-grey);
+    font-family: "Noto Sans";
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 13px;
+    cursor: pointer;
+}

@@ -1,0 +1,218 @@
+.big__window{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 85%;
+    height: 85%;
+    background: var(--white);
+}
+.big__window > h2{
+    margin-top: 9px;
+    text-transform: uppercase;
+    font-family: "Noto Sans";
+    color: var(--secondary-grey);
+}
+.cards__subscribe{
+    display: flex;
+    justify-content: space-around;
+    height: 50%;
+    color: var(--secondary-grey);
+}
+.sub__unique__card{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 25%;
+    border: 2px solid var(--secondary-grey);
+    border-radius: 5px;
+    padding: 15px;
+    cursor: pointer;
+    transition: 0.3s ease-out;
+}
+.sub__unique__card h3{
+    font-family: "Libre Baskerville";
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.sub__unique__card ul{
+    list-style: inside;
+}
+.sub__unique__card ul li{
+    font-family: "Libre Baskerville";
+    font-size: 13px;
+    line-height: 20px;
+}
+.prices{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+.subscription__price{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+.subscription__price p{
+    font-family: "Noto Sans";
+    font-weight: bold;
+    font-size: 31px;
+}
+.subscription__price span{
+    font-family: "Noto Sans";
+    font-weight: bold;
+    font-size: 13px;
+}
+.subscription__price + small{
+    font-family: "Noto Sans";
+    font-size: 10px;
+    margin-top: 2%;
+}
+.sub__to{
+    padding: 14px 6px;
+    width: 15%;
+    text-transform: uppercase;
+    background: var(--blue);
+    color: var(--white);
+    font-family: "Noto Sans";
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 13px;
+}
+.selected__card{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 25%;
+    border: 2px solid var(--blue);
+    border-radius: 5px;
+    padding: 15px;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.left{
+    position: relative;
+    left: 0;
+}
+
+/* payment */
+
+.width__eight{
+    width: 82%;
+}
+.payment__infos form{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+}
+.payment__infos label{
+    color: var(--secondary-grey);
+    width: 100%;
+    font-family: "Noto Sans";
+    font-size: 13px;
+    font-weight: bold;
+    padding: 10px;
+    margin: 5% 0 0 0;
+    position: relative;
+}
+.payment__infos label:not(.checkbox__form)::before{
+    content: '';
+    z-index: -2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid var(--primary-grey);
+    border-radius: 5px;
+}
+.payment__infos label:not(.checkbox__form) p{
+    position: absolute;
+    bottom: 80%;
+}
+.payment__infos label:not(.checkbox__form) p::after{
+    content: '';
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    bottom: 75%;
+    right: -7%;
+    width: 110%;
+    height: 105%;
+    background: var(--white);
+}
+.payment__infos label input:not([type=checkbox]){
+    position: relative;
+    font-size: 13px;
+    color: var(--secondary-grey);
+    width: 100%;
+    height: 100%;
+}
+.small__to__complete{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.small__to__complete label{
+    width: 45%;
+}
+.checkbox__form input[type=checkbox]{
+    width: 0;
+    height: 0;
+}
+.checkbox__form input[type=checkbox] + span + p{
+    position: relative;
+    margin: 0 0 0 36px;
+}
+.checkbox__form .checked{
+    position: absolute;
+    left: 0;
+    top: 32%;
+    width: 25px;
+    height: 25px;
+    border: 2px solid var(--primary-grey);
+    border-radius: 5px;
+}
+.checkbox__form input + .checked::before{
+    content: '';
+    width: 76%;
+    height: 76%;
+    background: var(--blue);
+    position: absolute;
+    border-radius: 3px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 0.2s ease-out;
+}
+.checkbox__form input:checked + .checked::before{
+    transform: translate(-50%, -53%) scale(1);
+}
+
+/* thanks page */
+
+.bigger__title{
+    font-family: "Noto Sans";
+    font-size: 25px;
+    color: var(--secondary-grey);
+}
+.bigger__title + p{
+    font-family: "Noto Sans";
+    font-size: 16px;
+    color: var(--secondary-grey);
+}
+.small__height{
+    height: 65%;
+}

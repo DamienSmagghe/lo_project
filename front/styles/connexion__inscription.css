@@ -1,0 +1,188 @@
+.small__window{
+    position: absolute;
+    width: 412px;
+    height: 550px;
+    border-radius: 15px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: var(--white);
+}
+.small__window h2{
+    padding: 10px;
+    text-align: center;
+    font-family: "Noto Sans";
+    color: var(--secondary-grey);
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.small__window label{
+    color: var(--secondary-grey);
+    font-family: "Noto Sans";
+    font-size: 13px;
+    font-weight: bold;
+    padding: 10px;
+    margin: 5% 0 0 0;
+    position: relative;
+}
+.small__window label:last-child::before{
+    border: none;
+}
+.small__window form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 80%;
+    height: 90%;
+    margin: 0 auto;
+}
+
+.small__window label:not(.checkbox__form)::before{
+    content: '';
+    z-index: -2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid var(--primary-grey);
+    border-radius: 5px;
+}
+.small__window label:not(.checkbox__form) p{
+    position: absolute;
+    bottom: 80%;
+}
+.small__window label:not(.checkbox__form) p::after{
+    content: '';
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    bottom: 75%;
+    right: -7%;
+    width: 110%;
+    height: 105%;
+    background: var(--white);
+}
+.small__window label input:not([type=checkbox]){
+    position: relative;
+    font-size: 13px;
+    color: var(--secondary-grey);
+    width: 100%;
+    height: 100%;
+}
+label.checkbox__form{
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+.checkbox__form input[type=checkbox]{
+    visibility: hidden;
+}
+.checkbox__form input[type=checkbox] + span + p{
+    position: relative;
+    margin: 0 0 0 36px;
+}
+.checkbox__form .checked{
+    position: absolute;
+    left: 0;
+    top: 26%;
+    width: 25px;
+    height: 25px;
+    border: 2px solid var(--primary-grey);
+    border-radius: 5px;
+}
+.checkbox__form input + .checked::before{
+    content: '';
+    width: 76%;
+    height: 72%;
+    background: var(--blue);
+    position: absolute;
+    border-radius: 3px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 0.2s ease-out;
+}
+.checkbox__form input:checked + .checked::before{
+    transform: translate(-52%, -52%) scale(1);
+}
+.signin__with{
+    display: flex;
+    justify-content: space-between;
+}
+.signin__with a{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid var(--primary-grey);
+    width: 45%;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: var(--secondary-grey);
+    font-family: "Noto Sans";
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+.signin__with a img{
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+}
+.signin__with + input{
+    padding: 10px;
+    width: 100%;
+    height: 8%;
+    background: var(--blue);
+    color: var(--white);
+    font-family: "Noto Sans";
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/**
+* Connexion styles
+**/
+
+.sm{
+    height: 470px;
+}
+.sm__form{
+    height: 65%;
+}
+.connect__form{
+    display:flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 15%;
+}
+.connect__form > input{
+    padding: 10px;
+    width: 100%;
+    height: 56%;
+    background: var(--blue);
+    color: var(--white);
+    font-family: "Noto Sans";
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.connect__form > a{
+    color: var(--blue);
+    text-decoration: underline;
+    font-family: "Noto Sans";
+    font-size: 13px;
+}
+.connect__form + a{
+    padding: 10px;
+    width: 100%;
+    height: 9%;
+    background: var(--secondary-grey);
+    color: var(--white);
+    font-family: "Noto Sans";
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}

@@ -1,0 +1,30 @@
+.more__margin{
+    margin-left: 10%;
+}
+.content__project{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 50%;
+    margin: 5% auto 0% auto;
+}
+.content__project p{
+    color: var(--secondary-grey);
+    font-family: "Noto Sans";
+    font-size: 20px;
+    line-height: 30px;
+}
+.donnation__project{
+    margin-top: 8%;
+    padding: 14px 6px;
+    width: 30%;
+    text-transform: uppercase;
+    background: var(--blue);
+    color: var(--white);
+    font-family: "Noto Sans";
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 13px;
+}
