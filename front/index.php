@@ -47,40 +47,40 @@
     <div class="new__articles">
         <div class="big__article">
             <!-- Titre dynamique -->
-            <h3>France</h3>
+            <h3>L’annexion de la Crimée</h3>
             <div class="img__frame">
                 <!-- Image dynamique -->
-                <img src="images/france.jpg" alt="france">
+                <img src="images/crimee.jpg" alt="crimée">
             </div>
             <!-- Texte dynamique -->
-            <p>Les combattants de conflits armés doivent être jugés selon les conventions de Genève. Les conventions de Genève en 1949 indiquent la...</p>
+            <p>Lors de la tentative d’annexion de la crimée ainsi que d’une partie de l’ouest de l’ukraine, un conflit armée s’installe...</p>
             <!-- Liens dynamique -->
-            <a class="read__button" href="article.php">lire</a>
+            <a class="read__button" href="article_0.php">lire</a>
         </div>
         <div class="column__articles">
             <div class="article">
                 <!-- Titre dynamique -->
-                <h4>Éthiopie</h3>
+                <h4>La crise des Rohingyas</h3>
                 <div class="img__frame">
                     <!-- Image dynamique -->
-                    <img src="images/ethiopie.jpg" alt="éthiopie">
+                    <img src="images/birmanie.jpg" alt="éthiopie">
                 </div>
                 <!-- Texte dynamique -->
-                <p>Après l'ouverture de la frontière en septembre 2018 entre l'Éthiopie et ... plus les stigmates lépreux de ce conflit qui a coûté la vie à près de 80...</p>
+                <p>Un nouveau mouvement de violence est apparu dans l’Etat d’Arakan en 2017 après l’attaque d’une vingtaine de postes-frontières...</p>
                 <!-- Liens dynamique -->
                 <a class="read__button" href="article.php">lire</a>
             </div>
             <div class="article">
                 <!-- Titre dynamique -->
-                <h5>Chine</h5>
+                <h5>Le conflit Syrien</h5>
                 <div class="img__frame">
                     <!-- Image dynamique -->
-                    <img src="images/chine.jpg" alt="chine">
+                    <img src="images/syrie.jpg" alt="chine">
                 </div>
                 <!-- Texte dynamique -->
-                <p>Menaces après menaces, les deux premières puissances économiques et militaires de la planète prennent le chemin d'un affrontement...</p>
+                <p>Les forces gouvernementales, loyalistes au régime de Bachar Al-Assad comprennent aujourd’hui...</p>
                 <!-- Liens dynamique -->
-                <a class="read__button" href="article.php">lire</a>
+                <a class="read__button" href="article_2.php">lire</a>
             </div>
         </div>
     </div>

@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="styles/subscribe.css">
     <link rel="stylesheet" href="styles/project.css">
     <link rel="stylesheet" href="styles/account.css">
+    <link rel="icon" type="image/png" href="images/logo_data.png" />
     <title>Data Conflict</title>
 </head>
 <body>
